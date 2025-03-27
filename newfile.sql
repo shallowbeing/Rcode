@@ -1,2 +1,2 @@
 select * from iris.iris.iris
-limit 100
+limit 1000
