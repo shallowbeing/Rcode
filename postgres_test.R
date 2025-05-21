@@ -16,6 +16,7 @@ iris <- iris
 dbSendQuery(con, "delete from iris")
 tableid <- Id(table = "iris")
 dbWriteTable(con, tableid, iris, append = T)
+
 View(ti)
 plot1 <- plot(ti$Sepal.Length, ti$Sepal.Width)
 View(plot1)
